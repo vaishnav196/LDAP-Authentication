@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12CFCC8C-962A-492D-9FC8-1D18DBB077B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SecureAdLoginApp.My.MyApplication</StartupObject>
+    <RootNamespace>SecureAdLoginApp</RootNamespace>
+    <AssemblyName>SecureAdLoginApp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LdapsAuth.vb" />
+    <Compile Include="AppSettings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+</Project>

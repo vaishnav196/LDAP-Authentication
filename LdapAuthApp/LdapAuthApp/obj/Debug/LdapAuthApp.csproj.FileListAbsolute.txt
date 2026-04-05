@@ -1,0 +1,7 @@
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\bin\LdapAuthApp.dll.config
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\bin\LdapAuthApp.dll
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\bin\LdapAuthApp.pdb
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\obj\Debug\LdapAuthApp.csproj.AssemblyReference.cache
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\obj\Debug\LdapAuthApp.csproj.CoreCompileInputs.cache
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\obj\Debug\LdapAuthApp.dll
+D:\zarir\ldap\LdapAuthApp\LdapAuthApp\obj\Debug\LdapAuthApp.pdb

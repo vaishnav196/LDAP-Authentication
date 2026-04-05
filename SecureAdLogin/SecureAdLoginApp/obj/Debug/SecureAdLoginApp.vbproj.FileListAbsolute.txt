@@ -1,0 +1,7 @@
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\obj\Debug\SecureAdLoginApp.vbproj.AssemblyReference.cache
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\obj\Debug\SecureAdLoginApp.vbproj.CoreCompileInputs.cache
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\bin\Debug\SecureAdLoginApp.exe.config
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\bin\Debug\SecureAdLoginApp.exe
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\bin\Debug\SecureAdLoginApp.pdb
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\obj\Debug\SecureAdLoginApp.exe
+D:\zarir\ldap\SecureAdLogin\SecureAdLoginApp\obj\Debug\SecureAdLoginApp.pdb
